@@ -26,7 +26,8 @@ void getEvens(node *head){
             cout <<head->content.data<<endl;
         head = head->next;
     }
-    }
+}
+
 void getOdds(node *head){
     while (head)
     {

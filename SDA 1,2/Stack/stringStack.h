@@ -1,12 +1,12 @@
 #pragma once 
 #include <iostream>
+#include <string>
 
 typedef struct nodeContent{
-    int content;
+    std::string content;
     nodeContent(){}
-    nodeContent(int _content){content = _content;}
-    bool operator==(const int& r){ return this->content == r;}
-    bool operator&(const int &r){ return this->content & r;}
+    nodeContent(std::string _content){content = _content;}
+    
 } D;
 
 struct node{
